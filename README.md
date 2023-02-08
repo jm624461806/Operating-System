@@ -11,6 +11,7 @@
 - Execute SRTF: ```./srtf test.txt ```
 ## Example Output
 ### MAS
+```
 ====================================================
 Report of MAS algorithm: 
 1(4) 
@@ -20,7 +21,9 @@ Report of MAS algorithm:
 Average TurnAroundTime of MAS algorithm is: 3.25
 Average WaitingTime of MAS algorithm is: 0
 ====================================================
+```
 ### SRTF
+```
 ====================================================
 Report of SRTF algorithm: 
 1(4) 
@@ -31,6 +34,7 @@ Report of SRTF algorithm:
 Average TurnAroundTime of SRTF algorithm is: 3.75
 Average WaitingTime of SRTF algorithm is: 0.5
 ====================================================
+```
 
 
 
