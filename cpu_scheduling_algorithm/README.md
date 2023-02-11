@@ -2,7 +2,8 @@
 ## Files
 - **mas.cpp** cpp file which implements the Multiqueue Adaptive Scheduling (MAS) CPU scheduling algorithm.
 - **srtf.cpp** cpp file which implements the Shortest-Remaining-Time-First (SRTF) CPU scheduling algorithm.
-## Compilation and Execution
+## Compilation and Execution 
+Assuming the txt file in under the same directory of the executable files
 ### MAS
 - Compile MAS: ```g++ mas.cpp -o mas```
 - Execute MAS: ```./mas test.txt ```
@@ -14,25 +15,18 @@
 ```
 ====================================================
 Report of MAS algorithm: 
-1(4) 
-2(7) 
-3(12) 
-4(13) 
-Average TurnAroundTime of MAS algorithm is: 3.25
-Average WaitingTime of MAS algorithm is: 0
+1(15)  2(10)  3(11)  4(14)  1(15)  
+Average TurnAroundTime of SRTF algorithm is: 9.750
+Average WaitingTime of SRTF algorithm is: 6.000
 ====================================================
 ```
 ### SRTF
 ```
 ====================================================
 Report of SRTF algorithm: 
-1(4) 
-2(8) 
-4(6) 
-2(8) 
-3(13) 
-Average TurnAroundTime of SRTF algorithm is: 3.75
-Average WaitingTime of SRTF algorithm is: 0.5
+1(15)  2(7)  3(5)  2(7)  4(10)  1(15)  
+Average TurnAroundTime of SRTF algorithm is: 6.500
+Average WaitingTime of SRTF algorithm is: 2.750
 ====================================================
 ```
 
